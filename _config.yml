@@ -1,0 +1,28 @@
+title: Tillys Hundeleben
+description: Anekdoten aus dem Leben eines griechischen Kokonis
+
+url: http://www.tillyshundeleben.de
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: redcarpet
+highlighter: pygments
+gems: [jekyll-paginate]
+paginate: 5
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: Über mich
+   url: /about
+ - title: Kontakt
+   url: /contact
+
+social:
+   instagram: tillykokoni/
+   twitter: TillyTheKokoni
+   facebook: profile.php?id=100011346237203
+   email: tillythekokoni@web.de
+
+google_analytics: "UA-75066740-1"
